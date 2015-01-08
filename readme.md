@@ -1,5 +1,5 @@
-# Nunchuck Breakout
-A breakout board for the Wii Nunchuck
+# Nunchuk Breakout
+A breakout board for the Wii Nunchuk
 
 ![PNG](renderings/Rev4.top.png)
 
@@ -12,4 +12,8 @@ A breakout board for the Wii Nunchuck
 | 2 | N/A | N/A | N/A | N/A | N/A | N/A | Similar to Rev 1. Now contains alignment square to help show which way the Nunchuck should be plugged in |
 | 3 | N/A | N/A | N/A | N/A | N/A | N/A | Added `enable` pin for enabling/disabling the nunchuck so multiple can be used |
 | 4 | [SCH](source/Rev4.sch), [PDF](schematics/Rev4.sch.pdf) | [BRD](source/Rev4.brd), [PDF](boards/Rev4.brd.pdf) | N/A | [PNG](renderings/Rev4.top.png) | [PNG](renderings/Rev4.bot.png) | [OSHPark ($2.00)](https://oshpark.com/projects/nHR9gFSK) | Added hopefully stronger locking section. |
+
+## To Do
+
+* Rename all versions of `Nunchuck` with 'proper' spelling `nunchuk`
 

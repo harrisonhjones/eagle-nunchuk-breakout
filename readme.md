@@ -6,7 +6,7 @@ A breakout board for the Wii Nunchuk
 ## Version History
 
 | Revision # | Schematic | Board | BOM | Top | Bottom |  Purchase Link | Notes |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 0 | N/A | N/A | N/A | N/A | N/A | N/A | Initial Version. No locking mechanism. Produced on a PCB mill @ college. Works |
 | 1 | N/A | N/A | N/A | N/A | N/A | N/A | New version with locking mechanism and built to straddle a solderless breakout board |
 | 2 | N/A | N/A | N/A | N/A | N/A | N/A | Similar to Rev 1. Now contains alignment square to help show which way the Nunchuck should be plugged in |

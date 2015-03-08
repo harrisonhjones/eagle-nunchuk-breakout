@@ -5293,13 +5293,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <busses>
 </busses>
 <nets>
-<net name="PRES" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PRESENCE"/>
-<wire x1="157.48" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CLK"/>
@@ -5364,7 +5357,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="144.78" y="132.08"/>
 <wire x1="144.78" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
-<wire x1="154.94" y1="132.08" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="132.08" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PRESENCE"/>
+<wire x1="147.32" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="114.3" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
 <wire x1="154.94" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 </segment>
